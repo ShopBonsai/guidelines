@@ -23,6 +23,10 @@ If you are having trouble describing your functionality in simple terms, you may
   - [React.js](./development/react.md)
   - [Redux](./development/redux.md)
 
+## Concepts
+
+- [RESTful API](./development/restapi)
+
 ## Open Source
 
 Because we love our the open-source community we've made our development guidelines public in full transparency!
@@ -34,12 +38,6 @@ We need to make sure that means **sensitive content is not included**:
 - keys, tokens or credentials
 
 > All sensitive information will be stored & available internally for all employees at Bonsai.
-
-## Pro tips
-
-- Do not reinvent the wheel. Use all tools & libraries available if they provide the same functionalities.
-  Make sure these are well-maintained and don't provide extra unneeded overhead.
-- Look for already existing functions within codebase before writing it yourself.
 
 ## Formatting
 
@@ -71,6 +69,12 @@ yarn
 // Run sanity check by linting
 yarn lint
 ```
+
+## Pro tips
+
+- Do not reinvent the wheel. Use all tools & libraries available if they provide the same functionalities.
+  Make sure these are well-maintained and don't provide extra unneeded overhead.
+- Look for already existing functions within codebase before writing it yourself.
 
 ## GitHub
 
