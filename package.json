@@ -12,7 +12,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "lint": "markdownlint **/*.md --ignore node_modules"
+    "lint": "markdownlint **/*.md -c .markdownlint.jsonc -i node_modules"
   },
   "devDependencies": {
     "markdownlint-cli": "^0.24.0"
