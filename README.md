@@ -1,4 +1,4 @@
-# Development Guidelines
+# Coding Guidelines
 
 ![Sanity Checks](https://github.com/ShopBonsai/guidelines/actions/workflows/main.yml/badge.svg)
 
@@ -23,8 +23,9 @@ If you are having trouble describing your functionality in simple terms, you may
 
 - [CSS](./development/css.md)
 - [Javascript](./development/javascript.md)
-  - [Node.js](./development/node.md)
-  - [React.js](./development/react.md)
+  - [Typescript](./development/typescript.md)
+  - [Node.js](./development/nodejs.md)
+  - [React.js](./development/reactjs.md)
   - [Redux](./development/redux.md)
 
 ## Open Source
