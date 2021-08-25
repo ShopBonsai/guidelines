@@ -1,5 +1,7 @@
 # Development Guidelines
 
+![Sanity Checks](https://github.com/ShopBonsai/guidelines/actions/workflows/main.yml/badge.svg)
+
 These documents are intended for all developers at Bonsai providing necessary guidelines making development as easy as possible working at Bonsai.
 Feel free to suggest any changes or improvements!
 
