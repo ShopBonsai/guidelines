@@ -15,6 +15,10 @@ Feel free to suggest any changes or improvements!
 
 If you are having trouble describing your functionality in simple terms, you may have designed the wrong function.
 
+## Concepts
+
+- [RESTful API](./development/restapi.md)
+
 ## Languages & Frameworks
 
 - [CSS](./development/css.md)
@@ -22,10 +26,6 @@ If you are having trouble describing your functionality in simple terms, you may
   - [Node.js](./development/node.md)
   - [React.js](./development/react.md)
   - [Redux](./development/redux.md)
-
-## Concepts
-
-- [RESTful API](./development/restapi)
 
 ## Open Source
 
