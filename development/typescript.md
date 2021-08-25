@@ -23,9 +23,33 @@ const point: Point = { x: 1, y: 2 };
 type Partner = 'ExternalStore' | 'Merchant';
 // vs
 enum Partner {
-  ExternalStore,
-  Merchant,
+  ExternalStore = 'ExternalStore',
+  Merchant = 'Merchant',
 }
+```
+
+- String enums should be preferred to numeric enums which are unsafe.
+
+```typescript
+// bad
+enum NumericEnum {
+  first,
+  second = 1
+}
+
+declare function f(e: NumericEnum): void
+f(123) // this shouldn't compile but it does!
+
+// good
+enum StringEnum {
+  first = 'first',
+  second = 'second'
+}
+
+declare function f2(e: StringEnum): void
+f2(StringEnum.first) // OK
+f2('first') // not allowed
+f2('hello') // not allowed
 ```
 
 > Choose for consistency within a project.
