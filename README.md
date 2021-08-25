@@ -3,8 +3,6 @@
 
 <img src="https://i.ibb.co/2gtS5CY/5f1efeb803215509150d1464-bonsai-lockup.png" alt="drawing" width="250"/>
 
----
-
 These documents are intended for all developers at Bonsai providing necessary guidelines making development as easy as possible working at Bonsai. Feel free to suggest any changes or improvements!
 
 ## Fundamental values
