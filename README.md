@@ -1,6 +1,6 @@
 # Development Guidelines
 
-[Bonsai Logo](https://i.ibb.co/2gtS5CY/5f1efeb803215509150d1464-bonsai-lockup.png "Bonsai Logo")
+![Bonsai Logo](https://i.ibb.co/2gtS5CY/5f1efeb803215509150d1464-bonsai-lockup.png "Bonsai Logo")
 
 These documents are intended for all developers at Bonsai providing necessary guidelines making development as easy as possible working at Bonsai. Feel free to suggest any changes or improvements!
 
