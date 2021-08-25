@@ -1,0 +1,20 @@
+{
+  "name": "@shopbonsai/guidelines",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bonsai Development Guidelines Documentation",
+  "keywords": [
+    "wiki",
+    "development",
+    "guidelines"
+  ],
+  "repository": "git@github.com:ShopBonsai/guidelines.git",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "markdownlint **/*.md --ignore node_modules"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.24.0"
+  }
+}

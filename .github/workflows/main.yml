@@ -1,0 +1,19 @@
+name: Sanity Checks
+
+on: [push]
+
+jobs:
+  lint:
+    if: github.event.pull_request.draft == false
+    name: Sanity Checks
+    runs-on: ubuntu-latest
+    env:
+      CI: true
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Lint Markdown
+        run: yarn lint
