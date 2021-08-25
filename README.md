@@ -23,15 +23,62 @@ If you are having trouble describing your functionality in simple terms, you may
   - [React.js](./development/react.md)
   - [Redux](./development/redux.md)
 
+## Open Source
+
+Because we love our the open-source community we've made our development guidelines public in full transparency!
+
+We need to make sure that means **sensitive content is not included**:
+
+- security & privacy policy violating content
+- content considered competitive intelligence
+- keys, tokens or credentials
+
+> All sensitive information will be stored & available internally for all employees at Bonsai.
+
 ## Pro tips
 
 - Do not reinvent the wheel. Use all tools & libraries available if they provide the same functionalities.
   Make sure these are well-maintained and don't provide extra unneeded overhead.
 - Look for already existing functions within codebase before writing it yourself.
 
+## Formatting
+
+We use [Markdown](https://www.markdownguide.org/) as our formatting tool for all available documentation.
+
+> [Markdownlint CLI](https://github.com/igorshubovych/markdownlint-cli)
+> is being used to be make sure the content follows our formatting configuration to keep documentation consistent.
+
 ## How to Contribute
 
-// TODO: Add guidelines
+Use GitHub to create pull-requests, start discussions, and contribute to active issues.
+
+If you are ready to start contributing, here are some things to keep in mind:
+
+- This a versioned documentation repository, and commit messages should follow this format.
+- If you are adding major sections or introducing major changes, then consider marking your commit as a breaking change.
+- Feel free to consult our [CONTRIBUTING](./CONTRIBUTING.md) guide for more guidance on how to contribute.
+
+// TODO: Add specific commit message format (preferably enforced through CLI tool)
+
+### Local development setup
+
+If you want to make sure your changes will pass our Github Actions steps, you might want to run things locally:
+
+```shell
+// Install dependencies
+yarn
+
+// Run sanity check by linting
+yarn lint
+```
+
+## GitHub
+
+Using the GitHub repository itself, rather than the "GitHub Wikis" feature, or other "Wiki" software ensures:
+
+- Version tracking, and usage of GitHub GUI features (blame, history, branches, diff, etc ...)
+- Ability to publish into a static website using GitHub Pages
+- Leverage branch locking, testing automation and other GitHub features only available in repos
 
 ---
 
