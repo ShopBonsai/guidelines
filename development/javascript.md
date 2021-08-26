@@ -48,7 +48,7 @@ const order = getOrder(...);
 
 ## Const vs functions
 
-- Prefer using arrow functions instead of function declarations.
+- Prefer functions expressions to function declarations.
 
 ```typescript
 // bad
