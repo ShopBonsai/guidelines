@@ -46,7 +46,7 @@ const order = getOrder(...);
 }
 ```
 
-## Const vs functions
+## Function expressions vs. function declarations
 
 - Prefer functions expressions to function declarations.
 
