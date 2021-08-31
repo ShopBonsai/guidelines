@@ -253,11 +253,11 @@ const host = url ? new URL(url).host : '';
   Instead, it uses the definition of “nullish”, which means that the value is strictly equal to null or undefined.
 
 ```javascript
-//1
-//0
+console.log(0 || 1); //1
+console.log(0 ?? 1); //0
 
 const team = null ?? 'A team';
-
+console.log(team);
 //A team
 ```
 
