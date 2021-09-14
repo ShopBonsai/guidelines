@@ -8,7 +8,7 @@ The following includes all guidelines specific for Javascript.
 
 ```javascript
 // bad
-const message = "This is not cool.";
+const message = 'This is not cool.';
 
 // good
 const message = 'This is super cool.';
