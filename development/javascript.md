@@ -8,7 +8,7 @@ The following includes all guidelines specific for Javascript.
 
 ```javascript
 // bad
-const message = 'This is super cool.';
+const message = 'This is not cool.';
 
 // good
 const message = 'This is super cool.';
@@ -18,7 +18,7 @@ const message = 'This is super cool.';
 
 ```javascript
 // bad
-const message = `This is super cool.`;
+const message = `This is not cool.`;
 
 // good
 const message = `Order with number ${orderNumber} got created.`;
@@ -46,9 +46,9 @@ const order = getOrder(...);
 }
 ```
 
-## Const vs functions
+## Function expressions vs. function declarations
 
-- Prefer using const instead of functions.
+- Prefer functions expressions to function declarations.
 
 ```typescript
 // bad
@@ -253,12 +253,8 @@ const host = url ? new URL(url).host : '';
   Instead, it uses the definition of “nullish”, which means that the value is strictly equal to null or undefined.
 
 ```javascript
-console.log(0 || 1); //1
-console.log(0 ?? 1); //0
-
-const team = null ?? 'A team';
-console.log(team);
-//A team
+const team = null ?? 'A team'; // A team
+const falsy = 0 ?? 'zero'; // 0
 ```
 
 ## Variables
@@ -328,11 +324,9 @@ const summary = getReportSummary(invoice);
 const transactions = getReportTransactions(invoice);
 
 return { summary, transactions };
-```
 
 // or
 
-```javascript
 return {
   summary: getReportSummary(invoice),
   transactions: getReportTransactions(invoice),
